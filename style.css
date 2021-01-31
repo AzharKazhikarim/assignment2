@@ -151,7 +151,7 @@ padding: 40px;
 }
 .gallery{
   width:50%;
-padding-top: 50px;
+  padding-top: 50px;
 }
 .image{
   width:550px;
@@ -167,9 +167,8 @@ width:550px;
 .ab2 {
     padding-top:28px;
     overflow: hidden;
- font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script', cursive;
     text-align: center;
-   
     font-size: 30px;
 }
 
@@ -178,10 +177,6 @@ width:550px;
   width:85%;
   padding-left: 40px;
 }
-
-
-
-
 .intro2{
  padding-top: 50px;
   height: 750px;
@@ -191,16 +186,15 @@ width:550px;
    padding-top:100px;
      background-image: url("back2.jpg");
      background-size: cover;
-     background-repeat: no-repeat;
+     /*background-repeat: no-repeat;*/
      background-position: center;
 }
 
 
 .normal{
 display: flex;
-margin-top:200px;
-margin-left: 0 auto;
-    margin-right: 0 auto;
+align-items: center;
+margin-left:340px;
     width: 6em
 }
 
@@ -214,43 +208,7 @@ margin-left: 0 auto;
 .contact{
   font-family: 'Kaushan Script', cursive;
 }
-* {
-    box-sizing: border-box;
-}
 
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.column {
-   float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-}
 
 
-.row:after {
-  padding-bottom: 50px;
-    content: "";
-    display: table;
-    clear: both;
-}
